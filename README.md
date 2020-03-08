@@ -7,13 +7,12 @@
 
 After optical calibration the Leap Motion sensor data needs to be aligned with the AR optics space.
 
-### Instructions:
+### Instructions [Youtube timelapse](https://www.youtube.com/watch?v=0LtfHAdqVtQ)
 
-1) Copy North Star calibration file to StreamingAssets folder, click "Load JSON"
+1) Move calibration file to StreamingAssets folder, click "Load JSON"
 
-2) Align finger tips (index and middle) with red spheres, press "space bar" to collect sample point. Skip ambiguous poses by hiding your right hand before pressing "space bar"
+2) While holding "Spacebar," align Right Index finger with red sphere. Release key when red sphere is on bone tip (about 5mm from fingertip).
 
-3) Capture about 10 samples, click "Calibrate data" or 'S' key. This automatically positions the Leap device. Verify by comparing with debug hands. Make small adjustments or capture new data.
+3) Capture many samples, varying depth and palm rotation. Click "Refine" or press the "S" key. Repeat process until hands align near and far.This may take several attempts. **The more varied the sampling, the better the result.**
 
-4) Click "Save copy" to create a new version with adjusted values.
-New file will be saved inside the "Calibrations" folder.
+4) Click "Save copy" to create a new version with adjusted values. New file will be saved inside the "Calibrations" folder.
